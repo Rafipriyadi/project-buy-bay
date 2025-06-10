@@ -1,0 +1,59 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Buybay</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+  <nav class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">Buybay</div>
+    <div>
+      <a href="beranda.html" class="mx-2 hover:underline">Beranda</a>
+      <a href="dashboard.html" class="mx-2 hover:underline font-bold">Dashboard</a>
+      <a href="index.html" class="mx-2 hover:underline">Logout</a>
+    </div>
+  </nav>
+
+  <section class="py-12 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6">Dashboard Pengguna</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Tagihan Listrik</h3>
+        <p class="text-gray-700 mt-2">Status: Belum dibayar</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Bayar Sekarang</button>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Tagihan BPJS</h3>
+        <p class="text-gray-700 mt-2">Status: Belum dibayar</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Bayar Sekarang</button>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Peminjaman Online</h3>
+        <p class="text-gray-700 mt-2">Limit: Rp 5.000.000</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Ajukan Pinjaman</button>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Saldo</h3>
+        <p class="text-gray-700 mt-2">Rp 1.250.000</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Isi Saldo</button>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Tagihan Internet</h3>
+        <p class="text-gray-700 mt-2">Status: Lunas</p>
+      </div>
+      <div class="bg-blue-100 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold text-blue-800">Tagihan PDAM</h3>
+        <p class="text-gray-700 mt-2">Status: Belum dibayar</p>
+        <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Bayar Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white text-center py-4 mt-12">
+    <p>&copy; 2025 Buybay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
